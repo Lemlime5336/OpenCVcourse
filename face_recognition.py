@@ -29,4 +29,6 @@ for (x, y, w, h) in faces_rect:
 cv.imshow('Person', img)
 cv.waitKey(0)
 
-#Note: OpenCV's face recognizer is not the best
+#Note: OpenCV's face recognizer is not the best,
+#partially owing to small size of the training set - ideally atleast a couple thousand per clas
+#also, it is not a deep learning model, thus unfit for the task
